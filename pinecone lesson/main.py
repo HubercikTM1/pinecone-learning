@@ -10,7 +10,7 @@ from langchain.document_loaders import DirectoryLoader, PDFMinerLoader
 from langchain.document_loaders import PyPDFLoader
 from langchain.embeddings.openai import OpenAIEmbeddings
 
-pinecone.init(api_key="63ff77f5-3860-4c19-ac55-68a43d1a145f", environment="gcp-starter")
+pinecone.init(api_key="my_pinecone_api_key", environment="gcp-starter")
 
 # once created -> comment
 # pinecone.create_index('hubi-idx', dimension=1536, metric="cosine")
